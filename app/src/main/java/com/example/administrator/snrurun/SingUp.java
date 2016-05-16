@@ -28,6 +28,7 @@ public class SingUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up);
 
+
         //Bind Widget
         bindwidget();
 
