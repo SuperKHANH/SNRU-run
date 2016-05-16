@@ -20,6 +20,9 @@ public class SingUp extends AppCompatActivity {
     private RadioButton choice1RadioButton, choice2RadioButton,
             choice3RadioButton, choice4RadioButton, choice5RadioButton;
 
+    private String nameString, userString, passString, avatarString;
+
+
 
 
 
