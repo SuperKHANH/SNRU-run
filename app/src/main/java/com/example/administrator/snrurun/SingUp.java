@@ -54,6 +54,23 @@ public class SingUp extends AppCompatActivity {
 
     public void clickSingUpSing(View view) {
 
+        //Get Value Form EditText
+        nameString = nameEditText.getText().toString().trim();
+        userString = userEditText.getText().toString().trim();
+        passString = passwordEditText.getText().toString().trim();
+
+
+        //check space
+        if (nameString.equals("") || userString.equals("")|| passString.equals ("")){
+
+            MyAlert myAlert = new MyAlert();
+            myAlert.myDialog(this,"!!!","please enter data");
+
+
+        } else {
+
+
+        }
 
         //startActivity(new Intent(SingUp.this,MainActivity.class));
     }
